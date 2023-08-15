@@ -27,24 +27,20 @@ const courses = [
         description: "An 8-week course that teaches the foundations of coding with Swift, Apple's seamless and straightforward programming language. Through various projects, you'll learn about the impact of innovation while exploring iOS app development."
     },
     {
-        title: "Socially Just Coding: Develop in Swift",
-        description: "An 8-week course that teaches the foundations of coding with Swift, Apple's seamless and straightforward programming language. Through various projects, you'll learn about the impact of innovation while exploring iOS app development."
+        title: "Pocket to Production: Creating Content",
+        description: "This course looks at the Black experience in cinema, music production, podcasting, live sound, and storytelling to equip you with the tools and resources to create authentic media content using Apple products."
     },
     {
-        title: "Socially Just Coding: Develop in Swift",
-        description: "An 8-week course that teaches the foundations of coding with Swift, Apple's seamless and straightforward programming language. Through various projects, you'll learn about the impact of innovation while exploring iOS app development."
+        title: "How AI Impacts Culture",
+        description: "This course explores the use of AI in different industries while highlighting its ability to mimic human intelligence and handle large data efficiently while discussing machine learning and deep learning as supporting technologies."
     },
     {
-        title: "Socially Just Coding: Develop in Swift",
-        description: "An 8-week course that teaches the foundations of coding with Swift, Apple's seamless and straightforward programming language. Through various projects, you'll learn about the impact of innovation while exploring iOS app development."
+        title: "Discovering Your Professional Superpowers",
+        description: "Uncover your talents, build a professional brand, and navigate the job market. Through self-reflection exercises, discussions, expert lectures, and training, you'll develop your personal brand and master resume writing, networking, and interviewing to secure a position that aligns with your passions."
     },
     {
-        title: "Socially Just Coding: Develop in Swift",
-        description: "An 8-week course that teaches the foundations of coding with Swift, Apple's seamless and straightforward programming language. Through various projects, you'll learn about the impact of innovation while exploring iOS app development."
-    },
-    {
-        title: "Socially Just Coding: Develop in Swift",
-        description: "An 8-week course that teaches the foundations of coding with Swift, Apple's seamless and straightforward programming language. Through various projects, you'll learn about the impact of innovation while exploring iOS app development."
+        title: "The Art of Storytelling",
+        description: "Craft compelling, culturally relevant stories using tools like iMovie and Keynote. Learn screenwriting fundamentals, character development, and creative processes. Create scripts that showcase your narrative skills and produce polished films for a successful screenwriting career."
     }
 ]
 

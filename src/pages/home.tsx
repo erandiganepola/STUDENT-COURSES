@@ -19,7 +19,7 @@
 import { BasicUserInfo, Hooks, useAuthContext } from "@asgardeo/auth-react";
 import React, { FunctionComponent, ReactElement, useCallback, useEffect, useState } from "react";
 import { default as authConfig } from "../config.json";
-import REACT_LOGO from "../images/app-background-3.jpeg";
+import REACT_LOGO from "../images/university-students.jpeg";
 import { DefaultLayout } from "../layouts/default";
 import { AuthenticationResponse } from "../components";
 import { useLocation } from "react-router-dom";
@@ -156,7 +156,7 @@ export const HomePage: FunctionComponent = (): ReactElement => {
                             /> */}
                             <Cards/>
                             <button
-                                className="btn primary mt-4"
+                                className="btn btn-lg btn-outline-secondary mt-4 w-25"
                                 onClick={ () => {
                                     handleLogout();
                                 } }
@@ -168,7 +168,7 @@ export const HomePage: FunctionComponent = (): ReactElement => {
                     : (
                         <div className="container-fluid">
                             <button
-                                className="btn primary"
+                                className="btn btn-lg btn-outline-secondary mt-4 w-25"
                                 style={{marginBottom: 20}}
                                 onClick={ () => {
                                     handleLogin();
@@ -176,17 +176,12 @@ export const HomePage: FunctionComponent = (): ReactElement => {
                             >
                                 Login
                             </button>
+                            <h3 className={ "spa-app-description" }>
+                            With access to industry leaders, micro-credential courses, and professional development, turn your dreams into reality.
+                            </h3>
                             <div className="container-fluid mb-4">
                                 <img alt="react-logo" src={ REACT_LOGO } className="img-fluid"/>
                             </div>
-                            <h4 className={ "spa-app-description" }>
-                                Sample demo to showcase authentication for a Single Page Application
-                                via the OpenID Connect Authorization Code flow,
-                                which is integrated using the&nbsp;
-                                <a href="https://github.com/asgardeo/asgardeo-auth-react-sdk" target="_blank" rel="noreferrer noopener">
-                                    Asgardeo Auth React SDK
-                                </a>.
-                            </h4>
                         </div>
                     )
             }

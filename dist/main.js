@@ -860,11 +860,7 @@ var HomePage = function HomePage() {
     className: "react-logo-image logo"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("h4", {
     className: "spa-app-description"
-  }, "Sample demo to showcase authentication for a Single Page Application via the OpenID Connect Authorization Code flow, which is integrated using the\xA0", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("a", {
-    href: "https://github.com/asgardeo/asgardeo-auth-react-sdk",
-    target: "_blank",
-    rel: "noreferrer noopener"
-  }, "Asgardeo Auth React SDK"), "."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("button", {
+  }, "the OpenID Connect Authorization Code flow, which is integrated using the\xA0"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("button", {
     className: "btn primary",
     onClick: function onClick() {
       handleLogin();
