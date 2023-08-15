@@ -166,7 +166,7 @@ export const HomePage: FunctionComponent = (): ReactElement => {
                         </div>
                     )
                     : (
-                        <div className="content">
+                        <div className="container-fluid">
                             <button
                                 className="btn primary"
                                 style={{marginBottom: 20}}
@@ -176,8 +176,8 @@ export const HomePage: FunctionComponent = (): ReactElement => {
                             >
                                 Login
                             </button>
-                            <div className="home-image">
-                                <img alt="react-logo" src={ REACT_LOGO } className="react-logo-image logo"/>
+                            <div className="container-fluid mb-4">
+                                <img alt="react-logo" src={ REACT_LOGO } className="img-fluid"/>
                             </div>
                             <h4 className={ "spa-app-description" }>
                                 Sample demo to showcase authentication for a Single Page Application

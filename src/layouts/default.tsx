@@ -53,7 +53,7 @@ export const DefaultLayout: FunctionComponent<PropsWithChildren<DefaultLayoutPro
 
     return (
         <>
-            <div className="container p-4">
+            <div className="container-fluid p-4">
                 <div className="header-title">
                     <h1>
                     Find your perfect course to study!
