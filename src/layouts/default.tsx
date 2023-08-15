@@ -56,7 +56,7 @@ export const DefaultLayout: FunctionComponent<PropsWithChildren<DefaultLayoutPro
             <div className="container-fluid p-4">
                 <div className="header-title">
                     <h1>
-                    Find your perfect course to study!
+                    Partner Programs
                     </h1>
                 </div>
                 {

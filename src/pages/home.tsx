@@ -19,7 +19,7 @@
 import { BasicUserInfo, Hooks, useAuthContext } from "@asgardeo/auth-react";
 import React, { FunctionComponent, ReactElement, useCallback, useEffect, useState } from "react";
 import { default as authConfig } from "../config.json";
-import REACT_LOGO from "../images/university-students.jpeg";
+import MentorsImg from "../images/mentors.jpeg";
 import { DefaultLayout } from "../layouts/default";
 import { AuthenticationResponse } from "../components";
 import { useLocation } from "react-router-dom";
@@ -177,10 +177,11 @@ export const HomePage: FunctionComponent = (): ReactElement => {
                                 Login
                             </button>
                             <h3 className={ "spa-app-description" }>
-                            With access to industry leaders, micro-credential courses, and professional development, turn your dreams into reality.
+                            
+"Our aim is to equip students with an exceptional learning edge, leveraging invaluable professional networks within the world’s most renowned and successful businesses and organizations."
                             </h3>
                             <div className="container-fluid mb-4">
-                                <img alt="react-logo" src={ REACT_LOGO } className="img-fluid"/>
+                                <img alt="react-logo" src={ MentorsImg } className="img-fluid"/>
                             </div>
                         </div>
                     )
