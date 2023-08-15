@@ -1,0 +1,7 @@
+{
+    "clientID": "LGANF95zzScfIzJqSRISGJ0bP9Ia",
+    "baseUrl": "https://api.asgardeo.io/t/erandisaorg",
+    "signInRedirectURL": "https://localhost:3001",
+    "signOutRedirectURL": "https://localhost:3001",
+    "scope": ["openid profile"]
+}
